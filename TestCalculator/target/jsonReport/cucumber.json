@@ -1,0 +1,2623 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-13T21:36:00.062Z",
+        "line": 4,
+        "name": "1 To test Addition functionality on the calculator",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;1-to-test-addition-functionality-on-the-calculator",
+        "after": [
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2664000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 534000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on 9 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 468000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 505000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on 9 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 521000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the result should be 18",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:36:05.261Z",
+        "line": 12,
+        "name": "2 To test the addition functionality with more than two values",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;2-to-test-the-addition-functionality-with-more-than-two-values",
+        "after": [
+          {
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1481000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 499000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user clicks on 1 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 485000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user clicks on 2 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 457000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 526000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks on 4 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 484000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the result should be 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:36:10.074Z",
+        "line": 22,
+        "name": "3 To test the addition functionality with one positive integer value and a positive decimal value",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;3-to-test-the-addition-functionality-with-one-positive-integer-value-and-a-positive-decimal-value",
+        "after": [
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1364000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 485000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user clicks on 1 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 443000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 462000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user clicks on 2 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 499000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user clicks on . operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": ".",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 470000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user clicks on 4 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 487000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the result should be 3.4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.4",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:36:14.594Z",
+        "line": 32,
+        "name": "4 To test the addition functionality with one negative integer value and a positive decimal value",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;4-to-test-the-addition-functionality-with-one-negative-integer-value-and-a-positive-decimal-value",
+        "after": [
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1370000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 448000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user clicks on - operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 464000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user clicks on 1 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 423000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 474000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user clicks on 2 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 498000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user clicks on . operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": ".",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 498000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user clicks on 4 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 523000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the result should be 1.4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1.4",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:36:19.642Z",
+        "line": 43,
+        "name": "5 To test the addition functionality with one negative high integer value and a positive decimal value",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;5-to-test-the-addition-functionality-with-one-negative-high-integer-value-and-a-positive-decimal-value",
+        "after": [
+          {
+            "result": {
+              "duration": 150000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1419000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 484000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user clicks on - operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 477000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "the user clicks on 6 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 490000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the user clicks on 3 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 523000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the user clicks on . operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": ".",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the user clicks on 3 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 513000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the result should be -2.7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-2.7",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:36:24.880Z",
+        "line": 54,
+        "name": "6 To test the addition functionality with a positive decimal value and one integer value",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;6-to-test-the-addition-functionality-with-a-positive-decimal-value-and-one-integer-value",
+        "after": [
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1335000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 487000000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "the user clicks on 2 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 514000000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "the user clicks on . operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": ".",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 449000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "the user clicks on 4 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 505000000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 488000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the user clicks on 1 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 511000000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "the result should be 3.4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.4",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:36:29.513Z",
+        "line": 65,
+        "name": "7 To test the addition functionality with two positive decimal values",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;7-to-test-the-addition-functionality-with-two-positive-decimal-values",
+        "after": [
+          {
+            "result": {
+              "duration": 100000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1321000000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 482000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "the user clicks on 2 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 465000000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "the user clicks on . operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": ".",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465000000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "the user clicks on 4 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 522000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "the user clicks on 1 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486000000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "the user clicks on . operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": ".",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 470000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "the user clicks on 1 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 493000000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229000000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "the result should be 3.5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.5",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:36:35.018Z",
+        "line": 77,
+        "name": "8 To test Addition functionality with positive Integer and zero",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;8-to-test-addition-functionality-with-positive-integer-and-zero",
+        "after": [
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1388000000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 473000000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "the user clicks on 9 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490000000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 499000000,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "the user clicks on 0 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 512000000,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "the result should be 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:36:38.716Z",
+        "line": 85,
+        "name": "9 To test Addition functionality with negative Integer and zero",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;9-to-test-addition-functionality-with-negative-integer-and-zero",
+        "after": [
+          {
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1325000000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 446000000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "the user clicks on - operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 460000000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "the user clicks on 9 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 459000000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 508000000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "the user clicks on 0 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 502000000,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "the result should be -9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-9",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:36:42.754Z",
+        "line": 94,
+        "name": "10 To test Addition functionality with two large positive integers",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;10-to-test-addition-functionality-with-two-large-positive-integers",
+        "after": [
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1336000000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7776000000,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "the user enters 1234567812345678",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567812345678",
+                  "offset": 16
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserEnters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 507000000,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7841000000,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "the user enters 8765432187654321",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8765432187654321",
+                  "offset": 16
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserEnters(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 491000000,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "the result should be 9,99,99,99,99,99,99,999",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9,99,99,99,99,99,99,999",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:37:01.055Z",
+        "line": 103,
+        "name": "11 To test functionality of addition and substation in the same cycle",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;11-to-test-functionality-of-addition-and-substation-in-the-same-cycle",
+        "after": [
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1332000000,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 533000000,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "the user clicks on 5 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 514000000,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 528000000,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "the user clicks on 9 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 484000000,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "the user clicks on - operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 496000000,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "the user clicks on 9 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 516000000,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217000000,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "the result should be 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:37:05.799Z",
+        "line": 113,
+        "name": "12 To test the addition functionality with two values with addition and substation and then and add a floting point",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;12-to-test-the-addition-functionality-with-two-values-with-addition-and-substation-and-then-and-add-a-floting-point",
+        "after": [
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1354000000,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 501000000,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "the user clicks on 6 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 470000000,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "the user clicks on - operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460000000,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "the user clicks on 8 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486000000,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "the result should be -2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-2",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 474000000,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 514000000,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "the user clicks on 5 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 501000000,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "the user clicks on . operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": ".",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 532000000,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "the user clicks on 6 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 531000000,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200000000,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "the result should be 3.6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3.6",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:37:12.149Z",
+        "line": 127,
+        "name": "13 To test the addition functionality with two values with addition and substation and then and add a floting point",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;13-to-test-the-addition-functionality-with-two-values-with-addition-and-substation-and-then-and-add-a-floting-point",
+        "after": [
+          {
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1339000000,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 497000000,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "the user clicks on 2 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 512000000,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 509000000,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "the user clicks on 8 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 492000000,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174000000,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "the result should be 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 526000000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 480000000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "the user clicks on 5 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 470000000,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "the user clicks on . operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": ".",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 490000000,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "the user clicks on 0 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1138000000,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "the user clicks on 0 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002000000,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "the user clicks on 0 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001000000,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "the user clicks on 0 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472000000,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "the user clicks on 6 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 467000000,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204000000,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "the result should be 15.00006",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15.00006",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:37:22.048Z",
+        "line": 145,
+        "name": "14 To test Addition functionality on Equal operator",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;14-to-test-addition-functionality-on-equal-operator",
+        "after": [
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1372000000,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 514000000,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "the user clicks on 9 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 487000000,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 534000000,
+              "status": "passed"
+            },
+            "line": 149,
+            "name": "the user clicks on 9 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnNumber(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466000000,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201000000,
+              "status": "passed"
+            },
+            "line": 151,
+            "name": "the result should be 18",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1021000000,
+              "status": "passed"
+            },
+            "line": 152,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199000000,
+              "status": "passed"
+            },
+            "line": 153,
+            "name": "the result should be 27",
+            "match": {
+              "arguments": [
+                {
+                  "val": "27",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-13T21:37:26.943Z",
+        "line": 155,
+        "name": "15 To test Addition functionality with two decimal large points",
+        "description": "",
+        "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.;15-to-test-addition-functionality-with-two-decimal-large-points",
+        "after": [
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.test.cal.MyStepdefs.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1407000000,
+              "status": "passed"
+            },
+            "line": 156,
+            "name": "the user opens Windows Calculator app",
+            "match": {
+              "location": "com.test.cal.MyStepdefs.theUserOpensWindowsApplications()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7537000000,
+              "status": "passed"
+            },
+            "line": 157,
+            "name": "the user enters 75.43926437800",
+            "match": {
+              "arguments": [
+                {
+                  "val": "75.43926437800",
+                  "offset": 16
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserEnters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 461000000,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "the user clicks on + operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6980000000,
+              "status": "passed"
+            },
+            "line": 159,
+            "name": "the user enters 273884.438290",
+            "match": {
+              "arguments": [
+                {
+                  "val": "273884.438290",
+                  "offset": 16
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserEnters(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466000000,
+              "status": "passed"
+            },
+            "line": 160,
+            "name": "the user clicks on \u003d operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003d",
+                  "offset": 19
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theUserClicksOnOperation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201000000,
+              "status": "passed"
+            },
+            "line": 161,
+            "name": "the result should be 2,73,959.877554378",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2,73,959.877554378",
+                  "offset": 21
+                }
+              ],
+              "location": "com.test.cal.MyStepdefs.theResultShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CalAddition"
+          }
+        ]
+      }
+    ],
+    "name": "To test the functionality on Additions on a windows application standard calculator.",
+    "description": "",
+    "id": "to-test-the-functionality-on-additions-on-a-windows-application-standard-calculator.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/additionCalculator.feature",
+    "tags": [
+      {
+        "name": "@CalAddition",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
